@@ -1,9 +1,8 @@
 # cargo-ebuild
 
-[![Build Status](https://github.com/gentoo/cargo-ebuild/actions/workflows/rust.yml/badge.svg)](https://github.com/gentoo/cargo-ebuild/actions)
-[![Latest Version](https://img.shields.io/crates/v/cargo-ebuild.svg)](https://crates.io/crates/cargo-ebuild)
-[![All downloads](https://img.shields.io/crates/d/cargo-ebuild.svg)](https://crates.io/crates/cargo-ebuild)
-[![Downloads of latest version](https://img.shields.io/crates/dv/cargo-ebuild.svg)](https://crates.io/crates/cargo-ebuild)
+[![Latest Version](https://img.shields.io/crates/v/tinted-cargo-ebuild.svg)](https://crates.io/crates/tinted-cargo-ebuild)
+[![All downloads](https://img.shields.io/crates/d/tinted-cargo-ebuild.svg)](https://crates.io/crates/tinted-cargo-ebuild)
+[![Downloads of latest version](https://img.shields.io/crates/dv/tinted-cargo-ebuild.svg)](https://crates.io/crates/tinted-cargo-ebuild)
 
 `cargo ebuild` is a Cargo subcommand that generates an
 [ebuild](https://wiki.gentoo.org/wiki/Ebuild) recipe that uses
@@ -31,7 +30,7 @@ ebuild for that crate.
 ### Example
 
 ```shell-session
-$ git clone https://github.com/gentoo/cargo-ebuild.git
+$ git clone https://github.com/theoparis/cargo-ebuild.git
 $ cd cargo-ebuild
 $ git checkout 0.5.3
 $ cargo ebuild
